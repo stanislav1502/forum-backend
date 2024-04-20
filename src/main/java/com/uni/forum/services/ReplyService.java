@@ -25,6 +25,8 @@ public class ReplyService {
     // TODO: Stanislav will review and fix (or break everything)
     protected static final Logger logger = LogManager.getLogger();
 
+
+
     private final ReplyRepository replyRepository;
     private final ReplyPagingRepository replyPagingRepository;
     private final TopicRepository topicRepository;
