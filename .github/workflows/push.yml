@@ -24,6 +24,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
+
     - name: Check secrets (for debugging, ensure these steps do not expose sensitive data)
       run: |
         echo "DOCKER_USERNAME is set: ${{ secrets.DOCKER_USERNAME != '' }}"
